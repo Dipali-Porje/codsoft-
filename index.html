@@ -5,49 +5,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Oswald:wght@200..700&display=swap');
     </style>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
    <main>
-       <header>
-           <div class="sign">
-                <img src="" alt="signature">
-           </div>
-           <div class="options">
-              <ul>
-                 <a href=""> Skills</a>
-                 <a href=""> Projects </a>
-                 <a href=""> Certificates </a>
-                 <a href=""> Blog </a>
-                 <a href=""> Contact Me </a>
-              </ul>
-           </div>
-       </header>
-
-       <section>
-         <div class="about-me">
-             <h1> Hi Everyone I'm Dipali  </h1> <br>
-             <div class="para">
-                 <p>
-                   I'm a third year AI & Data Science engineering student with a passion for web development. 
-                   My journey in technology began with creating dynamic & responsive websites, but my interest quickly expanded to encompass the vast field of data science.
-                 </p>
-                 <p>
-                 I am proficient in various programming languages and have experience working with frameworks & libraries.
-                 My goal is to merge my web development skills with my data Science expertise to build intelligent applications that can solve real-world problems.
-                 </p>
-                 <p>
-                 I am always eager to learn & take on new challenges, & I look forward to a carrer where I can contribute to innovative projects & make a significant impact in the tech industry.
-                 </p>
+      <div id="background">
+         <header>
+             <div class="sign">
+                <h3><i>Dipali Porje </i></h3>
              </div>
-         </div>
-         <div class="photo">
-            <img src="profile-photo.jpeg" alt="profile-photo">
-         </div>
-       </section>
-        <a  href="resume.pdf" download="resume.pdf" id="btn"> See My Resume </a>
+             <div class="options">
+                <ul>
+                  <a href="index.html">Home</a>
+                  <a href="about-me.html">About Me</a>
+                  <a href="project.html"> Projects </a>
+                  <a href="certificate.html"> Certificates </a>
+                  <a href=""> Blog </a>
+                </ul>
+             </div>
+         </header>
+
+         <section id="box">
+             <div class="home">
+                <h1 id="heading">  Hi Everyone I'm Dipali  </h1> <br>
+                <p id="big"> I'm  a  AI  &  Data Science Student in Nashik city. </p><br><br>
+                <div>
+                  <a  href="resume.pdf" download="resume.pdf" class="btn"> Get my CV </a>
+                  <a href="" class="btn"> Hire Me </a>
+                </div>
+             </div>
+         </section>
+        </div>
+        
+<!--skills  -->  
+        <div class="contact-me ">
+            <h2> Skills </h2><br>
+            <div class="img">
+                <i class="fa-brands fa-html5 logo"></i>
+                <p>HTML </p>
+            </div>
+            <div class="img">
+                <i class="fa-brands fa-css3-alt"></i>
+                <p>CSS </p>
+            </div>
+            <div class="img">
+                <i class="fa-brands fa-js"></i>
+                <p>JavaScript </p>
+            </div>
+            <div class="img">
+                <i class="fa-brands fa-bootstrap"></i>
+                <p>Bootstrap </p>
+            </div>
+            <div class="img">
+                <i class="fa-brands fa-php"></i>
+                <p>php </p>
+            </div>
+            <div class="img">
+                <i class="fa-solid fa-database"></i>
+                <p>SQL </p>
+            </div>
+            <div class="img">
+                <i class="fa-brands fa-python"></i>
+                <p>Python</p>
+            </div>
+            <div class="img">
+                <i class="fa-brands fa-figma"></i>
+                <p>Figma </p>
+            </div>
+            <div class="img">
+                <i class="fa-brands fa-square-github"></i>
+                <p>GitHub </p>
+            </div>
+            <div class="img">
+                <i class="fa-brands fa-git-alt"></i>
+                <p>git</p>
+            </div>
+        </div>
+
+        <div class="contact-me">
+            <h2> Contact Me</h2>
+            <div class="info line">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <p class="shading">Contact </p>
+                <p> 8483846723</p>
+            </div>
+            <div class="info line">
+                <i class="fa-solid fa-square-envelope"></i>
+                <p class="shading">Email </p>
+                <p> porjedipali7@gmail.com </p>
+            </div>
+            <div class="info line">
+                <i class="fa-brands fa-square-github"></i>
+                <p class="shading">GitHub</p>
+                <p> Dipali-Porje</p>
+            </div>
+            <div class="info line">
+                <i class="fa-brands fa-linkedin"></i>
+                <p class="shading"> LinkedIn</p>
+                <p> Dipali Porje </p>
+            </div>
+        </div>
+
+        <footer>
+            <i class="fa-regular fa-copyright copyright"></i>
+            <p class="copyright"> 2024 Dipali Porje. All rights reserved</p>
+        </footer>
    </main>
 </body>
 </html>
